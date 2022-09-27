@@ -1,2 +1,2 @@
 # writting-and-presentation-test
-# Git bash & Github dasar
+## Day 1 : Apa itu CLI ?
