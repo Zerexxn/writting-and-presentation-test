@@ -141,7 +141,7 @@
 ### CSS : Cascading Style Sheet
   - CSS dapat digunakan untuk mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya atau lebih tepatnya untuk menstyling sebuah WEB agar terlihat semakin menarik
   - Terdapat 3 cara untuk menambahkan CSS ke dalam dokumen HTML : 
-  > - Inline – menggunakan atribut style dalam elemen HTML ``<h1 style="background-color: aqua">Hai.. I'm <span>Reza</span></h1>``
+  > - Inline – menggunakan atribut style dalam elemen HTML ``<h1 style="background-color: aqua">Hai.. I'm <span>Dustin</span></h1>``
   > - Internal – menggunakan elemen ``<style>`` di dalam elemen ``<head>``
   ```
   <head>
