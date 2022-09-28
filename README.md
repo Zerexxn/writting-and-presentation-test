@@ -10,7 +10,7 @@
   - Cara membuka CLI 
     -  Buka menu pencarian pada Windows Logo 
     -  Ketikan “Git Bash” 
-    -  Pilih Command Prompt.
+    -  Pilih Git Bash.
 
 ### Navigasi Menggunakan CLI
   - File System berfungsi untuk mengatur bagaimana data disimpan didalam sebuah sistem
