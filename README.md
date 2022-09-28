@@ -9,7 +9,7 @@
     - Zsh
   - Cara membuka CLI 
     -  Buka menu pencarian pada Windows Logo 
-    -  Ketikan “Command Prompt” 
+    -  Ketikan “Git Bash” 
     -  Pilih Command Prompt.
 
 ### Navigasi Menggunakan CLI
