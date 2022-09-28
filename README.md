@@ -146,7 +146,7 @@
   ```
   <head>
   <style type="text/css">
-    p {color:white; font-size: 10px;}
+    p {color:red; font-size: 15px;}
     .center {display: block; margin: 0 auto;}
     #button-go, #button-back {border: solid 1px black;}
   </style>
@@ -168,7 +168,7 @@
 
   ```
   h1{ 
-   background-color: green
+   background-color: black
 } 
   ```
   > - ``Declaration Block`` tempat kita menuliskan atribut atau properti CSS yang akan diberikan ke pada elemen yang telah diseleksi.
@@ -200,11 +200,11 @@
   - Contoh Algoritma *Pseudo Code* sederhana menggunakan javascript
   
    ```
-  const nama = "Reza";
+  const nama = "Dustin";
 console.log("Nama Saya " + nama);
   
   Output : 
-  Nama Saya Reza
+  Nama Saya Dustin
   ```
 ### Javascript 
   > Javacript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website.
