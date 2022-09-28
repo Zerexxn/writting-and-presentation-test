@@ -1,4 +1,4 @@
-# writting-and-presentation-test
+# writting-and-presentation-test week 1
 ## Day 1 : Apa itu CLI ?
 ### Unix Command Line 
  - **Shell** adalah sebuah program utama untuk berinteraksi dengan Sistem Operasi.
