@@ -3,7 +3,7 @@
 - Array adalah tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai/variable) yang tiap tiap elemennya memiliki index
 - Contoh Array
 ```
-let hari = ['senin','selasa',rabu']
+let buah = ['apel','sirsak',jambu']
 ```
  > Cara menulis array menggunakan kurung siku [], dengan array kita dapat menampung lebih dari 1 nilai 
 - Kenapa Array ?
@@ -22,44 +22,44 @@ let angka = ['satu','dua','tiga'];
 ### Manipulasi Array dengan Method
  - .pop()
  ```
-let buah = ["pisang", "anggur", "apel"];
-buah.pop();
+let bulan = ["januari", "febuari", "maret"];
+bulan.pop();
 
-console.log(buah);
+console.log(bulan);
  ```
  > Menghapus index terakhir pada array
  - .push()
  ```
- let buah = ["pisang", "anggur", "apel"];
-buah.push("mangga");
+ let bulan = ["januari", "febuari", "maret"];
+bulan.push("april");
 
-console.log(buah);
+console.log(bulan);
  ```
  > Menambah index terakhir pada array
  - shift()
  ```
- let buah = ["pisang", "anggur", "apel"];
-buah.shift();
+ let bulan = ["januari", "febuari", "maret"];
+bulan.shift();
 
-console.log(buah);
+console.log(bulan);
 
  ```
  - .unshift()
  > Untuk menghapus index pertama pada array
 ```
-let buah = ["pisang", "anggur", "apel"];
-buah.unshift("mangga");
+let bulan = ["januari", "febuari", "maret"];
+bulan.unshift();
 
-console.log(buah);
+console.log(bulan);
 
  ```
  > Untuk menambahkan index pertama pada array
  - .sort()
  ```
- let buah = ["pisang", "anggur", "apel"];
-buah.sort();
+ let bulan = ["januari", "febuari", "maret"];
+bulan.sort();
 
-console.log(buah);
+console.log(bulan);
 
  ```
 > Method untuk mengurutkan secara Ascending atau Descending Alphanumeric
@@ -72,15 +72,15 @@ console.log(buah);
 ### Array Multidimensional
 > Array Multidimensi adalah sebuah Array yang memiliki lebih dari satu subskrip atau Array didalam Array
 ```
-let mobil = [["Avanza"], ["Volvo"]];
-console.log(mobil);
+let laptop = [["Lenovo"], ["Asus"]];
+console.log(laptop);
 ```
 - Method Built-in Array
 > Sama seperti Array satu dimensi, multidimensional array juga dapat menggunakan property dan Method built-in array
 ```
-let mobil = [["Avanza"], ["Volvo"]];
+let laptop = [["Lenovo"], ["Asus"]];
 
-mobil.push(["Tesla"]);
+laptop.push(["hp"]);
 
 ```
 ## DAY 2 : Javascript Object
@@ -90,15 +90,15 @@ mobil.push(["Tesla"]);
 > Obeject dapat diassign kedalam sebuah variable
 ```
 let mahasiswa = {
-  name: "Reza",
-  age: 21,
+  name: "Dustin",
+  age: 20,
 };
 ```
 - Mengakses Object
 ```
 let mahasiswa = {
-  name: "Reza",
-  age: 21,
+  name: "Dustin",
+  age: 20,
 };
 
 console.log(mahasiswa);
@@ -106,8 +106,8 @@ console.log(mahasiswa);
 - Mengakses Property Object
 ```
 let mahasiswa = {
-  name: "Reza",
-  age: 21,
+  name: "Dustin",
+  age: 20,
 };
 
 console.log(mahasiswa.age);
@@ -115,22 +115,22 @@ console.log(mahasiswa.age);
 - Mengupdate Object
 ```
 let mahasiswa = {
-  name: "Reza",
-  age: 21,
+  name: "Dustin",
+  age: 20,
 };
 
-mahasiswa.age = 25;
+mahasiswa.age = 17;
 
-mahasiswa.address = "Pontianak";
+mahasiswa.address = "Lampung";
 
 console.log(mahasiswa);
 ```
 - Menghapus Property Object
 ```
 let mahasiswa = {
-  name: "Reza",
-  age: 21,
-  address: "Pontianak",
+  name: "Dustin",
+  age: 17,
+  address: "Lampung",
 };
 
 delete mahasiswa.address;
@@ -182,8 +182,8 @@ function recursive() {
  ```
  // file 1.js
 let person = {
-    firstName: 'Reza',
-    lastName: 'Saputra',
+    firstName: 'Dustin',
+    lastName: 'Bayu',
   };
   
   function getFirstName() {
@@ -206,11 +206,11 @@ console.log(getFirstName());
 - Callback
 > function yg dijadikan sebagai argumen Ketika sesuatu memerlukan waktu yang lama, maka dia akan masuk kedalam callback queue lalu menjalankan proses yang berada di belakangnya. Jika proses yg belakang sudah selesai, maka engine akan memeriksa yang ada didalam callback queue untuk dijalankan.
 ```
-console.log("Reza");
+console.log("Dustin");
 setTimeout(() => {
-  console.log("Reza 1");
+  console.log("Dustin 1");
 }, 1000);
-console.log("Reza 3");
+console.log("Dustin 3");
 ```
 
 ### Promise
@@ -222,7 +222,7 @@ console.log("Reza 3");
   - Rejected ( Dibatalkan )
 - Contoh Promise
 ```
-let nontonOnePiece = new Promise((resolve, rejcet) => {
+let nontonPengabdiSetan = new Promise((resolve, rejcet) => {
   if (promise) {
     resolve("Jadi Nonton");
   } else {
