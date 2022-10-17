@@ -1,7 +1,7 @@
-# Writing and Presentation Test Week 3
+# Writing and Presentation Test Skillvul Week 3
 ## DAY 1 : Array 
 - Array adalah tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai/variable) yang tiap tiap elemennya memiliki index
-- Contoh Array
+- Contoh tipe data Array
 ```
 let buah = ['apel','sirsak',jambu']
 ```
