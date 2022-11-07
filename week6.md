@@ -206,20 +206,15 @@
         - Setiap kolom bernilai tunggal (single value)
         - Setiap kolom memiliki nama yang unik
         - Urutan penyimpanan data tidak menjadi masalah
-    - Contoh Bentuk Unormalize (Penulis punya multiple value) :
-    <img src="Gambar/unor1.png">
+   
 
-    - contoh bentuk 1NF :
-    <img src="Gambar/nf1.png">
+   
 
 - **Second Normal Form (2NF)**
     - Harus sudah dalam bentuk 1NF untuk mendapatkan 2NF
     - Menghapus beberapa subset data yang ada pada tabel dan menempatkan mereka pada tabel terpisah.
-    - Contoh Bentuk Unormalize (Subset info penerbit pada 1 table):
-    <img src="Gambar/unor2.png">
-
-    - Contoh Bentuk 2NF :
-    <img src = "Gambar/nf2.png">
+   
+   
 - **Third Normal Form (3NF)**
     - Menghilangkan seluruh atribut atau field yang tidak berhubungan dengan primary key. Dengan demikian tidak ada ketergantungan transitif pada setiap kandidat key.
 
@@ -526,4 +521,4 @@ Beberapa endpoint RESTFul :
     });
     ```
 
-    <img src ="Gambar/delete.png">
+   
