@@ -12,9 +12,7 @@
 - ### **Istilah pada Database**
   - **Table**
     <div align="justify">Table adalah kumpulan value yang dibangun oleh baris dan kolom, yang didalamnya berisikan atribut dari sebuah data.
-    <div align="justify">contoh table :
-
-    <img src="Gambar/table1.png">
+    <div align="justify"
 
   - **Field**
     <div align="justify">Field adalah kolom dari sebuah tabel dimana masing-masing field memiliki tipe data masing-masing.
@@ -152,7 +150,6 @@
   <div align="justify">
   Join, adalah penggabungan tabel yang dilakukan melalui kolom/key tertentu yang memiliki nilai terkait untuk mendapatkan satu set data dengan informasi lengkap.
 
-  <img src="Gambar/join.png">
 
   <br>
 
@@ -383,8 +380,8 @@
   const jwt = require('jsonwebtoken')
 
   const users = [
-      {id : 1, email :"arif@gmail.com", password: "123"},
-      {id : 2, email :"setiawan@gmail.com", password: "123"},
+      {id : 1, email :"dustin@gmail.com", password: "123"},
+      {id : 2, email :"bayu@gmail.com", password: "123"},
   ];
 
   const KEY = "asdfjsdaklf234234";
@@ -528,24 +525,5 @@ Beberapa endpoint RESTFul :
         }
     });
     ```
-
-- Create New Todo
-    <div align="justify">Untuk Kita akan membuat sebuah routing entuk create new todo dengan syntax berikut :
-
-    <br>
-
-    <img src ="Gambar/create.png">
-
-- Update Todo By Id
-    <div align="justify">Untuk Kita akan membuat sebuah routing entuk update todo by Id dengan syntax berikut
-
-    <br>
-
-    <img src ="Gambar/update.png">
-
-- Delete Todo
-    <div align="justify">Untuk Kita akan membuat sebuah routing entuk delete todo by Id dengan syntax berikut
-
-    <br>
 
     <img src ="Gambar/delete.png">
